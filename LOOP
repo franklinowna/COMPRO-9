@@ -1,0 +1,33 @@
+int FJLB = 1, num;
+
+
+            // input
+
+            Console.Write("Enter the number of times to loop: ");
+
+            num = int.Parse(Console.ReadLine());
+
+
+            // decision
+
+            while (FJLB <= num)
+
+            {
+
+                // output
+
+                Console.WriteLine(FJLB + " ACT");
+
+
+                // process
+
+                FJLB++;
+
+            }
+
+            Console.ReadKey();
+
+
+
+
+        }
